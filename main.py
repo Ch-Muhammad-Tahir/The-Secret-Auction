@@ -7,6 +7,7 @@ bidding_finished = False
 def find_highest_bidder(bids):
     highest_bid = 0
     winner = ""
+    # ---------------------------------------
     # Value store in Dictionary
     # {"Tahir":100,"Ayesha",80}
     # Hello World
@@ -15,6 +16,7 @@ def find_highest_bidder(bids):
         if bid_amount > highest_bid:
             highest_bid = bid_amount
             winner = bidder
+    print("-------------------------------")
     print(f"Winner is {winner} with a bid of ${highest_bid}")
 
 while not bidding_finished:
