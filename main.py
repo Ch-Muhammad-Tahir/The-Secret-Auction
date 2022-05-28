@@ -9,6 +9,7 @@ def find_highest_bidder(bids):
     winner = ""
     # Value store in Dictionary
     # {"Tahir":100,"Ayesha",80}
+    # Hello World
     for bidder in bids:
         bid_amount = int(bids[bidder])
         if bid_amount > highest_bid:
